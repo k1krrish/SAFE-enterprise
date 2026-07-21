@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+
+
+
+
+
+
+
+
+# ==========================
+# SAFE Project Rules
+# ==========================
+
+# Ignore all CSV datasets
+datasets/raw/*.csv
+
+# Keep the folders
+!datasets/
+!datasets/raw/
+!datasets/raw/.gitkeep
